@@ -124,7 +124,7 @@
           <drawSize>1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AlbinoFluffy/Dessicated_AlbinoFluffy</texPath>
+          <texPath>Things/Pawn/Animal/Dessicated_AlbinoFluffy</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -134,7 +134,7 @@
           <drawSize>1.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AlbinoFluffy/Dessicated_AlbinoFluffy</texPath>
+          <texPath>Things/Pawn/Animal/Dessicated_AlbinoFluffy</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
