@@ -25,6 +25,16 @@
       <lifeExpectancy>50</lifeExpectancy>
       <wildness>0.1</wildness>
       <packAnimal>true</packAnimal>
+      <gestationPeriodDays>5</gestationPeriodDays>
+      <mateMtbHours>0.1</mateMtbHours>
+      <litterSizeCurve>
+        <points>
+          <li>(3, 0)</li>
+          <li>(4.5, 1)</li>
+          <li>(5.0, 1)</li>
+          <li>(7, 0)</li>
+        </points>
+      </litterSizeCurve>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
