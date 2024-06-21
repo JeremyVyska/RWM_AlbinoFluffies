@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
+                <value>
+                    <li>Caravan_Outlander_Exotic_Fluffy</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/FactionDef[@Name="TribeBase"]/caravanTraderKinds</xpath>
+                <value>
+                    <li>Caravan_Neolithic_ShamanMerchant_Fluffy</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationAdd" MayRequire="Rihlsul.BigFluffies"> <!-- Only runs if BigFluffies is active -->
+                <xpath>Defs/TraderKindDef[defName="Orbital_Exotic_Fluffy"]/stockGenerators</xpath>
+                <value>
+                    <li Class="StockGenerator_SingleDef">
+                        <thingDef>Wool_AlbinoFluffy</thingDef>
+                        <countRange>300~900</countRange>
+                    </li>
+                    <li Class="StockGenerator_SingleDef">
+                        <thingDef>Leather_AlbinoFluffy</thingDef>
+                        <countRange>200~800</countRange>
+                    </li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+    
+</Patch>

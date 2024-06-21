@@ -13,4 +13,8 @@
     <li>1.4</li>
     <li>1.5</li>
   </supportedVersions>
+  <!-- If using both, we'll patch trading goods onto the BigFluffies versions of traders. -->
+  <loadAfter>
+    <li>Rihlsul.BigFluffies</li>
+  </loadAfter>
 </ModMetaData>
