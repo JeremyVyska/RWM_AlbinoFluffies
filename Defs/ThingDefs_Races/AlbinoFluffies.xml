@@ -4,7 +4,7 @@
     <ThingDef ParentName="AnimalThingBase">
         <defName>AlbinoFluffy</defName>
         <label>albinofluffy</label>
-        <description>This mutant creature is easily spotted since it is huge and white, possible arising from some strange things involving a hare, rum, and a Megasloth. The extra fluff makes them sturdy in the cold and their wool provides excellent protection against elements and more.  They're strangely bright and can be trained.  Recent experimentation revealed their thick wool supports holding items and they don't appear to mind or even notice, making them useful as pack animals.</description>
+        <description>This mutant creature is easily spotted since it is huge and white, possibly arising from some strange things involving a hare, rum, and a Megasloth. The extra fluff makes them sturdy in the cold and their wool provides excellent protection against elements and more.  They're strangely bright and can be trained.  Recent experimentation revealed their thick wool supports holding items and they don't appear to mind or even notice, making them useful as pack animals.</description>
         <statBases>
             <ComfyTemperatureMin>-70</ComfyTemperatureMin>
             <MarketValue>400</MarketValue>
@@ -27,7 +27,6 @@
 
             <trainability>Advanced</trainability>
             <nuzzleMtbHours>36</nuzzleMtbHours>
-            <wildness>0.1</wildness>
             <packAnimal>true</packAnimal>
 	        <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
 

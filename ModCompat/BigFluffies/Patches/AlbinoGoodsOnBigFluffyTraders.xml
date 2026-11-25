@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Loaded only when BigFluffies is active (see LoadFolders.xml).
+	     BigFluffies owns the three fluffy traders; we just add albino goods to them. -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TraderKindDef[
+				defName="Caravan_Neolithic_ShamanMerchant_Fluffy" or
+				defName="Caravan_Outlander_Exotic_Fluffy" or
+				defName="Orbital_Exotic_Fluffy"
+			]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Wool_AlbinoFluffy</thingDef>
+				<countRange>300~900</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Leather_AlbinoFluffy</thingDef>
+				<countRange>200~800</countRange>
+			</li>
+		</value>
+	</Operation>
+</Patch>
