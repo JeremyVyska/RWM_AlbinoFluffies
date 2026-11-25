@@ -17,6 +17,39 @@
 				<thingDef>Leather_AlbinoFluffy</thingDef>
 				<countRange>200~800</countRange>
 			</li>
+			<li Class="StockGenerator_SingleDef">
+			    <thingDef>FluffPuffs_AlbinoFluffy</thingDef>
+			    <countRange>20~60</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+			    <thingDef>SugarRushShake_AlbinoFluffy</thingDef>
+			    <countRange>5~15</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+			    <thingDef>Apparel_FloofCap_AlbinoFluffy</thingDef>
+			    <countRange>-1~3</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+			    <thingDef>Apparel_FloofScarf_AlbinoFluffy</thingDef>
+			    <countRange>-1~3</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+			    <thingDef>Apparel_FluffherdRobe_AlbinoFluffy</thingDef>
+			    <countRange>-1~2</countRange>
+			</li>
+		</value>
+	</Operation>
+	<!-- Milk spoils, so it only goes on the two caravans, not the orbital trader. -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TraderKindDef[
+				defName="Caravan_Neolithic_ShamanMerchant_Fluffy" or
+				defName="Caravan_Outlander_Exotic_Fluffy"
+			]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Milk_AlbinoFluffy</thingDef>
+				<countRange>50~150</countRange>
+			</li>
 		</value>
 	</Operation>
 </Patch>
